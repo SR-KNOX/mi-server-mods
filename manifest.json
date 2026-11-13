@@ -76,7 +76,7 @@
       "file": "ATi Structures Vanilla V1.4.7.jar",
       "sha256": "e7de7e898d3d107b7ac204b327fd9fcabd4acd3ef7a4c86e9dace3c4b6c3d3cc",
       "size": 8264794,
-      "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.1.1/ATi%20Structures%20Vanilla%20V1.4.7.jar",
+      "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.1.1/ATi.Structures.Vanilla.V1.4.7.jar",
       "force": false
     },
     {
@@ -132,7 +132,7 @@
       "file": "born_in_chaos_[Forge]1.20.1_1.7.5.jar",
       "sha256": "9f242f4f3330f3d0d985f5f3ce9a92fe09016ff9c6162252f201d17009b28d7d",
       "size": 11839865,
-      "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.1.1/born_in_chaos_%5BForge%5D1.20.1_1.7.5.jar",
+      "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.1.1/born_in_chaos_.Forge.1.20.1_1.7.5.jar",
       "force": false
     },
     {
@@ -153,7 +153,7 @@
       "file": "Cardinal Sins 1.0.3.jar",
       "sha256": "ad4948ce5be941b9503a544c5185dd5edea0c5e4c99b871b49b06e80578b8930",
       "size": 9901529,
-      "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.1.1/Cardinal%20Sins%201.0.3.jar",
+      "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.1.1/Cardinal.Sins.1.0.3.jar",
       "force": false
     },
     {
@@ -979,7 +979,7 @@
       "file": "smoothboot(reloaded)-mc1.20.1-0.0.4.jar",
       "sha256": "5a0d2682493ffa7b140a7b81f0d1e70c7536c97969397cf9e718e31391b5b9d5",
       "size": 41044,
-      "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.1.1/smoothboot(reloaded)-mc1.20.1-0.0.4.jar",
+      "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.1.1/smoothboot.reloaded.-mc1.20.1-0.0.4.jar",
       "force": false
     },
     {
@@ -1175,7 +1175,7 @@
       "file": "[1.20.1] SecurityCraft v1.10.2.1.jar",
       "sha256": "f7c637b291cccd2c4a4f94048a6d08a48065c0618fec03043d6f9e15af27948a",
       "size": 4995865,
-      "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.1.1/%5B1.20.1%5D%20SecurityCraft%20v1.10.2.1.jar",
+      "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.1.1/1.20.1.SecurityCraft.v1.10.2.1.jar",
       "force": false
     }
   ],
