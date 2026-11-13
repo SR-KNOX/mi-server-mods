@@ -1,0 +1,72 @@
+
+#Mekanism Optimizer General Settings
+["General Settings"]
+	#Enable O(1) fast Poisson distribution sampling to replace iterative loops.
+	enableFastPoissonSampler = true
+	#Enable adaptive tick backoff when ejectors or pipes encounter blocked targets.
+	enableAdaptiveBackoff = true
+	#Enable caching of skylight checks for Solar Neutron Activator and solar machines.
+	enableSolarLightCache = true
+	#Enable sleeping anchor upgrades and dimensional stabilizers when the owner is offline (MekDefender).
+	enableOwnerChunkloadGating = true
+	#Enable ultra-fast, zero-allocation auto-sort item balancing for Mekanism and Addon (AME/Extras) factories.
+	enableFactoryAutoSortOptimization = true
+	#Enable adaptive tick caching for massive multiblocks (Turbine, Fusion Reactor, etc.) during steady states.
+	enableMultiblockOptimization = true
+	#Enable special performance optimizations for Mekanism Addons (Astral Mekanism, Evolved Mekanism, Mekanism Extras).
+	enableAddonOptimizations = true
+	#Enable O(1) instant bypass for living entity radiation calculations when world has no active radiation.
+	enableRadiationFastPath = true
+	#Enable adaptive backoff for universal cables and energy cubes when targets are fully charged.
+	enableCableBackoff = true
+	#Enable unit display and HUD tooltip formatting cache to eliminate repeated string allocations.
+	enableLookingAtCache = true
+	#Enable O(1) height multiplier caching and adaptive skylight checks for Wind Generators to eliminate server tick allocations.
+	enableWindGeneratorOptimization = true
+	#Enable frustum culling for Wind Generators to skip rendering and matrix math for off-screen/backside models.
+	enableWindGeneratorRenderCulling = true
+	#Enable pre-baked static mast/body and rigid rotor meshes for Wind Generators (reduces 21 matrix transforms per frame to 2).
+	enableWindGeneratorPrebakedMeshes = true
+	#Enable zero-allocation direct rendering for Wind Generators to eliminate per-frame capturing lambda allocations.
+	enableWindGeneratorDirectRendering = true
+	#Enable 3-tier distance-adaptive Level of Detail (LOD) and far-distance culling for Wind Generators.
+	enableWindGeneratorDistanceLod = true
+	#Enable rotation angle quantization/throttling for medium and far distance Wind Generators.
+	enableWindGeneratorAngleThrottling = true
+	#Enable fluid tank rendering cache and lookup optimizations.
+	enableFluidTankRenderOptimization = true
+	#Enable energy cube rendering optimizations to reduce per-frame object allocations.
+	enableEnergyCubeRenderOptimization = true
+	#Enable writing dedicated optimization and performance logs to logs/mekanism_optimizer.log.
+	enableDedicatedLogFile = true
+
+#Advanced Tuning
+["Advanced Tuning"]
+	#Time-to-live in ticks for cached skylight visibility.
+	#Range: 5 ~ 200
+	solarLightCacheTtlTicks = 40
+	#Interval in seconds for performance statistics logging (0 to disable).
+	#Range: 0 ~ 3600
+	logIntervalSeconds = 60
+	#Interval in ticks between skylight occlusion checks for Wind Generators (default 100 ticks = 5s).
+	#Range: 10 ~ 1200
+	windGeneratorSkyCheckIntervalTicks = 100
+	#Maximum capacity for pooled Energy Cube core LazyRender instances.
+	#Range: 16 ~ 1024
+	energyCubePoolCapacity = 256
+	#Distance threshold in blocks for switching Wind Generators to LOD 1 (medium detail, omitting sub-pixel wires/plates/secondary blades).
+	#Range: 8.0 ~ 128.0
+	windGeneratorLod1DistanceBlocks = 24.0
+	#Distance threshold in blocks for switching Wind Generators to LOD 2 (far detail, core mast and primary 3 blades only).
+	#Range: 16.0 ~ 192.0
+	windGeneratorLod2DistanceBlocks = 48.0
+	#Maximum distance in blocks beyond which Wind Generator rendering is completely culled.
+	#Range: 16.0 ~ 256.0
+	windGeneratorCullDistanceBlocks = 80.0
+	#Rotation angle quantization step in degrees for medium-distance (LOD 1) Wind Generators.
+	#Range: 0.25 ~ 45.0
+	windGeneratorMidQuantizeDegrees = 8.0
+	#Rotation angle quantization step in degrees for far-distance (LOD 2) Wind Generators.
+	#Range: 0.25 ~ 90.0
+	windGeneratorFarQuantizeDegrees = 12.0
+
