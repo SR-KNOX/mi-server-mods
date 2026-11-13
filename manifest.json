@@ -1,6 +1,6 @@
 {
-  "version": "0.1.2",
-  "generatedAt": "2026-11-13T03:16:05.425Z",
+  "version": "0.1.3",
+  "generatedAt": "2026-11-13T23:54:11.670Z",
   "mods": [
     {
       "file": "Adorn-5.0.1+1.20.1-forge.jar",
@@ -598,6 +598,13 @@
       "force": false
     },
     {
+      "file": "jei-1.20.1-forge-15.56.0.205.jar",
+      "sha256": "6b251e60a4719c874da89d750af97aa6498f6f4475e3ae79cb1288c7bf0cb65c",
+      "size": 1778129,
+      "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.1.3/jei-1.20.1-forge-15.56.0.205.jar",
+      "force": false
+    },
+    {
       "file": "justhammers-forge-2.0.3+mc1.20.1.jar",
       "sha256": "2e83270c28d3550ee29ccd638c33da248adb3baf5da6ffdaa3c829706da87d65",
       "size": 93291,
@@ -1106,6 +1113,13 @@
       "sha256": "cc90af84a22be12814da2d090bf43ae28d11555e5687e9556bec4ad8fe53028c",
       "size": 255445,
       "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.1.1/villagertradingplus-forge-mc1.20.1-1.1.1.jar",
+      "force": false
+    },
+    {
+      "file": "walljump-1.20.1-1.3.8-forge.jar",
+      "sha256": "65815ed4f556aa2c822b45868d05842039c97d3dd175db34b2a44a83f69a83dc",
+      "size": 185771,
+      "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.1.3/walljump-1.20.1-1.3.8-forge.jar",
       "force": false
     },
     {
