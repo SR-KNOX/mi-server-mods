@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "updated": "2026-11-13T00:00:00.000Z",
+  "releases": [
+    {
+      "id": "0.1.3",
+      "version": "0.1.3",
+      "date": "2026-11-13",
+      "title": "Notas de la 0.1.3",
+      "items": [
+        { "type": "new", "text": "Se agregó JEI" },
+        { "type": "new", "text": "Se agregó WallJump" }
+      ]
+    }
+  ]
+}
