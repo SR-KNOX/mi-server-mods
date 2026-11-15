@@ -1,7 +1,17 @@
 {
   "schema": 1,
-  "updated": "2026-11-14T00:00:00.000Z",
+  "updated": "2026-11-15T00:00:00.000Z",
   "releases": [
+    {
+      "id": "0.2.1",
+      "version": "0.2.1",
+      "date": "2026-11-15",
+      "title": "Notas de la 0.2.1",
+      "items": [
+        { "type": "change", "text": "Chloride actualizado a la versión 1.8.1: más estable y mejor optimizado." },
+        { "type": "remove", "text": "Se retiró EverlastingSkins del pack." }
+      ]
+    },
     {
       "id": "0.2.0",
       "version": "0.2.0",

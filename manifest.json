@@ -1,6 +1,6 @@
 {
-  "version": "0.2.0",
-  "generatedAt": "2026-11-15T03:52:55.041Z",
+  "version": "0.2.1",
+  "generatedAt": "2026-11-15T20:49:53.464Z",
   "mods": [
     {
       "file": "Adorn-5.0.1+1.20.1-forge.jar",
@@ -175,13 +175,6 @@
       "sha256": "5fdbc245003d2cb46b92eb9120d7bca7f03422628daed24c818baa195efe8663",
       "size": 2613393,
       "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.1.1/cfm-forge-1.20.1-7.0.0-pre36.jar",
-      "force": false
-    },
-    {
-      "file": "chloride-FORGE-mc1.20.1-v1.7.5.jar",
-      "sha256": "ed964374effd0c196b01c0a5ed4f275fccecbc6c1f540bbafe44926ce5bcc4fe",
-      "size": 956080,
-      "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.1.1/chloride-FORGE-mc1.20.1-v1.7.5.jar",
       "force": false
     },
     {
@@ -378,13 +371,6 @@
       "sha256": "8924a015f28348c806e6680addc2d5a8bcaf8439dd51ce48ce3b2f2b0e522407",
       "size": 756864,
       "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.1.1/EpheroLib-1.20.1-FORGE-1.2.0.jar",
-      "force": false
-    },
-    {
-      "file": "EverlastingSkins-1.20.1-1.0.jar",
-      "sha256": "a8676c6fdd0c914a00564b1694ba3bd7c217c7c6c8859c210d26b8bade771206",
-      "size": 66742,
-      "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.1.1/EverlastingSkins-1.20.1-1.0.jar",
       "force": false
     },
     {
@@ -1358,6 +1344,13 @@
       "sha256": "4f5104f7d29e1d065364d2483885f3751da2bef09a734cead2fce81c82c46586",
       "size": 291139,
       "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.2.0/zombieawareness-1.20.1-1.13.1.jar",
+      "force": false
+    },
+    {
+      "file": "chloride-FORGE-mc1.20.1-v1.8.1.jar",
+      "sha256": "6ebabdcaf4d466ff229f50f0b5715ebc3e9229e72dae2064c4fe8f1fb62d860b",
+      "size": 532833,
+      "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.2.1/chloride-FORGE-mc1.20.1-v1.8.1.jar",
       "force": false
     }
   ],
