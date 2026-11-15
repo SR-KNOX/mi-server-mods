@@ -1,7 +1,21 @@
 {
   "schema": 1,
-  "updated": "2026-11-13T00:00:00.000Z",
+  "updated": "2026-11-14T00:00:00.000Z",
   "releases": [
+    {
+      "id": "0.2.0",
+      "version": "0.2.0",
+      "date": "2026-11-14",
+      "title": "Notas de la 0.2.0",
+      "items": [
+        { "type": "new", "text": "Menú personalizado de PROYECTADOS: la puerta de entrada oficial y todo un espectáculo nada más abrir el mundo." },
+        { "type": "change", "text": "JEI actualizado a la versión 15.74.0.234: más rápido, más ligero y con mejor compatibilidad con todos los mods del pack." },
+        { "type": "change", "text": "Rendimiento del lado del cliente reforzado: múltiples optimizaciones y funciones para un juego más fluido y estable que nunca." },
+        { "type": "change", "text": "Sistema de actualización implementado tanto por el cliente como por el launcher: los cambios llegan directos a tu instancia, sin dolores de cabeza." },
+        { "type": "remove", "text": "Se retiró FancyMenu para dar paso al nuevo menú oficial de PROYECTADOS." },
+        { "type": "new", "text": "¡Oleada de mods nuevos! Más de 25 adiciones entre aventura, mazmorras, armas, mobiliario y utilidades: tu mundo nunca volverá a ser el mismo." }
+      ]
+    },
     {
       "id": "0.1.3",
       "version": "0.1.3",

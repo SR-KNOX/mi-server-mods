@@ -89,6 +89,8 @@
 		#How far away dragons will detect gold blocks being destroyed or chests being opened
 		#Range: 0 ~ 10000
 		"Dragon Gold Search Length" = 30
+		#Whether the bite attack from a dragon heals them or not.
+		"Dragon Bite Heal" = true
 		#True if dragons can despawn. Note that if this is false there may be SERIOUS lag issues.
 		"Dragons Despawn" = true
 		#True if tamed dragons go to sleep at night.
@@ -121,8 +123,6 @@
 		"Animals Fear Dragons" = true
 		#A more intelligent dragon pathfinding system, but is also laggier. Turn this on if you think dragons are too stupid.
 		"Intelligent Dragon Pathfinding" = false
-		#Whether the bite attack from a dragon heals them or not.
-		"Dragon Bite Heal" = true
 
 [Mobs]
 
@@ -360,6 +360,9 @@
 	#Default armor value of dragonsteel chestplate.
 	#Range: > 7
 	"Dragonsteel Base Armor" = 12
+	#Default armor toughness value of dragonsteel.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Dragonsteel Base Armor Toughness" = 6.0
 	#Default durability value of dragonsteel tools.
 	#Range: > 1
 	"Dragonsteel Base Durability" = 8000
@@ -379,9 +382,6 @@
 	"Dragon Bone Ice Abilities" = true
 	#True if the dragon bone lightning sword strikes attackers.
 	"Dragon Bone Lightning Abilities" = true
-	#Default armor toughness value of dragonsteel.
-	#Range: 0.0 ~ 1.7976931348623157E308
-	"Dragonsteel Base Armor Toughness" = 6.0
 
 [Pathfinding]
 	#Maximum threads to use for dragon/myrmex pathfinding. Increase this number if pathing is slow and you have many cores.
