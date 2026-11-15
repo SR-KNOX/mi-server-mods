@@ -1,15 +1,37 @@
 {
   "schema": 1,
-  "updated": "2026-11-15T00:00:00.000Z",
+  "updated": "2026-11-15T21:30:57.170Z",
   "releases": [
+    {
+      "id": "0.2.2",
+      "version": "0.2.2",
+      "date": "2026-11-15",
+      "title": "Notas de la 0.2.2",
+      "items": [
+        {
+          "type": "remove",
+          "text": "Se retiró JEI por problemas de compatibilidad."
+        },
+        {
+          "type": "new",
+          "text": "Se integró REI (Roughly Enough Items) como reemplazo oficial de JEI."
+        }
+      ]
+    },
     {
       "id": "0.2.1",
       "version": "0.2.1",
       "date": "2026-11-15",
       "title": "Notas de la 0.2.1",
       "items": [
-        { "type": "change", "text": "Chloride actualizado a la versión 1.8.1: más estable y mejor optimizado." },
-        { "type": "remove", "text": "Se retiró EverlastingSkins del pack." }
+        {
+          "type": "change",
+          "text": "Chloride actualizado a la versión 1.8.1: más estable y mejor optimizado."
+        },
+        {
+          "type": "remove",
+          "text": "Se retiró EverlastingSkins del pack."
+        }
       ]
     },
     {
@@ -18,12 +40,30 @@
       "date": "2026-11-14",
       "title": "Notas de la 0.2.0",
       "items": [
-        { "type": "new", "text": "Menú personalizado de PROYECTADOS: la puerta de entrada oficial y todo un espectáculo nada más abrir el mundo." },
-        { "type": "change", "text": "JEI actualizado a la versión 15.74.0.234: más rápido, más ligero y con mejor compatibilidad con todos los mods del pack." },
-        { "type": "change", "text": "Rendimiento del lado del cliente reforzado: múltiples optimizaciones y funciones para un juego más fluido y estable que nunca." },
-        { "type": "change", "text": "Sistema de actualización implementado tanto por el cliente como por el launcher: los cambios llegan directos a tu instancia, sin dolores de cabeza." },
-        { "type": "remove", "text": "Se retiró FancyMenu para dar paso al nuevo menú oficial de PROYECTADOS." },
-        { "type": "new", "text": "¡Oleada de mods nuevos! Más de 25 adiciones entre aventura, mazmorras, armas, mobiliario y utilidades: tu mundo nunca volverá a ser el mismo." }
+        {
+          "type": "new",
+          "text": "Menú personalizado de PROYECTADOS: la puerta de entrada oficial y todo un espectáculo nada más abrir el mundo."
+        },
+        {
+          "type": "change",
+          "text": "JEI actualizado a la versión 15.74.0.234: más rápido, más ligero y con mejor compatibilidad con todos los mods del pack."
+        },
+        {
+          "type": "change",
+          "text": "Rendimiento del lado del cliente reforzado: múltiples optimizaciones y funciones para un juego más fluido y estable que nunca."
+        },
+        {
+          "type": "change",
+          "text": "Sistema de actualización implementado tanto por el cliente como por el launcher: los cambios llegan directos a tu instancia, sin dolores de cabeza."
+        },
+        {
+          "type": "remove",
+          "text": "Se retiró FancyMenu para dar paso al nuevo menú oficial de PROYECTADOS."
+        },
+        {
+          "type": "new",
+          "text": "¡Oleada de mods nuevos! Más de 25 adiciones entre aventura, mazmorras, armas, mobiliario y utilidades: tu mundo nunca volverá a ser el mismo."
+        }
       ]
     },
     {
@@ -32,8 +72,14 @@
       "date": "2026-11-13",
       "title": "Notas de la 0.1.3",
       "items": [
-        { "type": "new", "text": "Se agregó JEI" },
-        { "type": "new", "text": "Se agregó WallJump" }
+        {
+          "type": "new",
+          "text": "Se agregó JEI"
+        },
+        {
+          "type": "new",
+          "text": "Se agregó WallJump"
+        }
       ]
     }
   ]

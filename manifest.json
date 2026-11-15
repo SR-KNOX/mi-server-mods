@@ -1,6 +1,6 @@
 {
-  "version": "0.2.1",
-  "generatedAt": "2026-11-15T20:49:53.464Z",
+  "version": "0.2.2",
+  "generatedAt": "2026-11-15T21:30:43.910Z",
   "mods": [
     {
       "file": "Adorn-5.0.1+1.20.1-forge.jar",
@@ -574,13 +574,6 @@
       "sha256": "faf39cd0326e5127004be0b0c96ba7d52fa40cf9c7f85854bd47e3ebfc402f4c",
       "size": 91754,
       "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.1.1/JadeAddons-1.20.1-Forge-5.5.1.jar",
-      "force": false
-    },
-    {
-      "file": "jei-1.20.1-forge-15.74.0.234.jar",
-      "sha256": "0bbd27c886b974be6906fe16f5e5e3ace8a87350b32e4361cca0213df1e7e86e",
-      "size": 4805946,
-      "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.2.0/jei-1.20.1-forge-15.74.0.234.jar",
       "force": false
     },
     {
@@ -1351,6 +1344,13 @@
       "sha256": "6ebabdcaf4d466ff229f50f0b5715ebc3e9229e72dae2064c4fe8f1fb62d860b",
       "size": 532833,
       "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.2.1/chloride-FORGE-mc1.20.1-v1.8.1.jar",
+      "force": false
+    },
+    {
+      "file": "RoughlyEnoughItems-12.1.785-forge.jar",
+      "sha256": "95d2b55868301c9d97dd020ce8049e59dc15cc8d9c88aa648f0bef1f30a728e3",
+      "size": 2384003,
+      "url": "https://github.com/SR-KNOX/mi-server-mods/releases/download/v0.2.2/RoughlyEnoughItems-12.1.785-forge.jar",
       "force": false
     }
   ],
