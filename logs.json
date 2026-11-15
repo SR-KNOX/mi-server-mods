@@ -1,7 +1,23 @@
 {
   "schema": 1,
-  "updated": "2026-11-15T21:30:57.170Z",
+  "updated": "2026-11-15T21:52:03.099Z",
   "releases": [
+    {
+      "id": "0.2.3",
+      "version": "0.2.3",
+      "date": "2026-11-15",
+      "title": "Notas de la 0.2.3",
+      "items": [
+        {
+          "type": "change",
+          "text": "Se dejó de sincronizar la config del cliente: solo los mods mandan desde el servidor."
+        },
+        {
+          "type": "change",
+          "text": "Tus configs son tuyas: puedes editarlas, borrarlas o cambiarlas libremente sin que el launcher te lo reclame ni dependa de ellas."
+        }
+      ]
+    },
     {
       "id": "0.2.2",
       "version": "0.2.2",
